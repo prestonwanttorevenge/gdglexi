@@ -1,5 +1,7 @@
 # GDGLexi — Landing Page Khóa Học IELTS & VSTEP
 
+**Live Demo:** https://prestonwanttorevenge.github.io/gdglexi/
+
 Landing Page giới thiệu **GDGLexi** — chương trình đào tạo và luyện thi chứng chỉ tiếng Anh **IELTS** & **VSTEP** lớp nhỏ, được tài trợ và trực thuộc **Google Developer Groups on Campus - DUT** tại Trường Đại học Bách Khoa - Đại học Đà Nẵng (54 Nguyễn Lương Bằng, Liên Chiểu, Đà Nẵng). Dự án được xây dựng bằng **HTML5 + CSS3 + Vanilla JS (ES6+ Modules)**.
 
 ## 1. Công nghệ & Kiến trúc
