@@ -1,0 +1,71 @@
+@layer tokens {
+  :root {
+    --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+    --font-sans: 'Lexend', system-ui, -apple-system, sans-serif;
+
+    --color-bg: oklch(0.98 0.002 250);
+    --color-bg-tinted: oklch(0.955 0.004 250);
+    --color-surface: oklch(1 0 0);
+    --color-surface-elevated: oklch(1 0 0);
+    --color-text: oklch(0.24 0.01 255);
+    --color-text-muted: oklch(0.47 0.012 255);
+    --color-border: oklch(0.895 0.006 250);
+    --color-border-strong: oklch(0.78 0.01 250);
+
+    --color-primary: oklch(0.55 0.195 256);
+    --color-primary-hover: oklch(0.48 0.195 256);
+    --color-primary-contrast: oklch(0.99 0.002 250);
+
+    --color-accent: oklch(0.55 0.195 256);
+    --color-accent-soft: oklch(0.945 0.032 254);
+    --color-success: oklch(0.52 0.145 148);
+    --color-success-soft: oklch(0.945 0.035 148);
+    --color-danger: oklch(0.55 0.2 27);
+    --color-danger-soft: oklch(0.95 0.03 27);
+
+    --color-header-scrolled: oklch(0.98 0.002 250 / 0.9);
+    --color-backdrop: oklch(0.2 0.01 255 / 0.48);
+
+    --shadow-sm: 0 1px 3px oklch(0.2 0.01 255 / 0.06);
+    --shadow-md: 0 10px 26px -8px oklch(0.2 0.015 255 / 0.12);
+    --shadow-lg: 0 22px 44px -12px oklch(0.18 0.015 255 / 0.18);
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-pill: 999px;
+
+    --container-max: 1180px;
+    --header-height: 74px;
+    --header-height-scrolled: 60px;
+  }
+
+  :root[data-theme='dark'] {
+    --color-bg: oklch(0.17 0.008 260);
+    --color-bg-tinted: oklch(0.205 0.01 260);
+    --color-surface: oklch(0.23 0.01 260);
+    --color-surface-elevated: oklch(0.26 0.012 260);
+    --color-text: oklch(0.935 0.004 250);
+    --color-text-muted: oklch(0.73 0.01 255);
+    --color-border: oklch(0.32 0.01 260);
+    --color-border-strong: oklch(0.43 0.014 260);
+
+    --color-primary: oklch(0.75 0.125 254);
+    --color-primary-hover: oklch(0.81 0.115 254);
+    --color-primary-contrast: oklch(0.17 0.01 260);
+
+    --color-accent: oklch(0.75 0.125 254);
+    --color-accent-soft: oklch(0.27 0.045 254);
+    --color-success: oklch(0.76 0.115 148);
+    --color-success-soft: oklch(0.25 0.04 148);
+    --color-danger: oklch(0.73 0.145 24);
+    --color-danger-soft: oklch(0.26 0.045 24);
+
+    --color-header-scrolled: oklch(0.17 0.008 260 / 0.9);
+    --color-backdrop: oklch(0.08 0.008 260 / 0.7);
+
+    --shadow-sm: 0 1px 3px oklch(0.05 0.005 260 / 0.35);
+    --shadow-md: 0 10px 26px -8px oklch(0.05 0.005 260 / 0.5);
+    --shadow-lg: 0 22px 44px -12px oklch(0.04 0.005 260 / 0.68);
+  }
+}
